@@ -1,0 +1,10 @@
+# gradio运行环境配置
+
+conda create -n gradio python=3.8
+conda activate gradio
+cd至目录文件下
+// pip install -i https://pypi.tuna.tsinghua.edu.cn/simple  numpy
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple  gradio
+//pip install -i https://pypi.tuna.tsinghua.edu.cn/simple  opencv-python  （cv2）
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple  torch
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple  basicsr
